@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #898989;
+	font-weight: 300;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: transparent!important;
+	
+}
+.header-area.sticky .navbar-default{
+	background-color: #fff !important;
+	
+}
+
+#hero{
+	background-image: url("../img/bg-hero.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*para que la imagen de atras se quede fixed when scrolling:*/
+	background-attachment: fixed;
+	padding: 10% 0;
+	color: #fff;
+}
+#hero h1{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	
+}
+#hero p{
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+#hero span{
+	color: #72b529;
+}
+.btn-clear{
+	background-color: transparent;
+	color: #fff;
+	font-size: 16px;
+	border: 5;
+	padding: 10px 40px;
+	font-weight: 300;
+	border-radius: 20px;
+	border-color: #fff;
+}
+.btn-yellow:hover{
+	background-color: #FBD24A;
+	color: #fff;
+}
+.btn-verde{
+	color: #fff;
+	background-color: #72b529;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-left: 10px;
+	border: 0;
+	
+}
+.section{
+	padding: 80px 0;
+}
+#about h1{
+	color: #000000;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+}
+#about span{
+	color: #72b529;
+}
+.text{
+	font-size: 16px;
+	color: #000;
+	text-align: left;
+	margin: 40px 0 40px 40px;
+	font-weight: 300;
+	
+}
+#services h1{
+	color: #000000;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 700;
+}
+#services p{
+	margin: 40px 0;
+
+}
+.info{
+	padding: 5%;
+}
+.info i{
+	color: #72b529;
+	font-size: 50px;
+}
+.info h3{
+	color: #333e50;
+	font-size: 22px;
+	font-weight: 400;
+}
+.info p{
+	font-size: 14px;
+}
+.cube h2{
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.cube p{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.cube a{
+	margin-bottom: 60px;
+	align-content: center;
+}
+.cube .gris{
+	background-color: #3d3f3e;
+}
+.cube .greencito{
+	background-color: #86CB5E;
+}
+.cube .greeny{
+	background-color: #72b529;
+}
+.service h4{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.service i{
+	color: #72b529;
+	font-size: 30px;
+}
+.service{
+	padding: 5%;
+	margin-top: 15%
+}
+.logos{
+	background-color:rgba(225,225,225,1.00);
+	padding: 5%;
+}
+#quote{
+	background-image: url("../img/bg-testi.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10% 0;
+	color: #fff;
+}
+#quote i{
+	font-size: 55px;
+	color: #72b529;
+	margin-left: 60px;
+}
+#quote p{
+	font-size: 18px;
+	margin-top: 35px;
+	margin-left: 60px;
+	margin-bottom: 100px;
+}
+#quote p span{
+	font-size: 14px;
+}
+#subscribe{
+	background-color: #72b529;
+	padding: 5%;
+	color: #fff;
+}
+.form p{
+	text-align: center;
+}
+#contact{
+	padding: 5%;
+	background-color: #4B4E4D;
+}
+.social i{
+	font-size: 25px;
+}
+.contact i{
+	font-size: 35px;
+	padding: 15%;
+	text-align: center;
+}
+#contact h4{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+footer{
+	background-color: #3d3f3e;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
